@@ -1,0 +1,116 @@
+.card-header {
+  background-color: seagreen;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-custom {
+  background-color: seagreen;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.btn-custom:hover {
+  background-color: seagreen;
+  color: white;
+}
+.circle-chart {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: seagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+.list-collection li {
+  color: seagreen;
+}
+.list-collection li:hover {
+  margin-left: 25px;
+}
+.card-header {
+  background-color: seagreen;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-custom {
+  background-color: white;
+  color: seagreen;
+  border: 1px solid seagreen;
+  width: 100%;
+}
+.circle-chart {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(seagreen 0% 25%, lightgray 25% 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+.info-card {
+  background: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+.stat-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: seagreen;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+}
+.stat-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #8fd3f4, #84fab0);
+}
+canvas {
+  max-width: 90%;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+  height: 400px;
+  width: 600px;
+}
+.blood-card {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to bottom, red, black);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+.blood-card:hover {
+  transform: scale(1.05);
+}
+.card-height {
+  height: 255px;
+}
+.custom-margin2 {
+  margin-top: 102px;
+}
+.custom-margin1 {
+  margin-top: 63px;
+}
+.bg-green {
+  height: 22px;
+  border-radius: 10px;
+  background-color: seagreen;
+}
